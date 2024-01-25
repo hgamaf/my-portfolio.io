@@ -38,7 +38,15 @@
         h1 {
             margin-top: 0;
         }
-        .skills, .academic, .portfolio {
+        .skills, .academic {
+            margin-bottom: 20px;
+        }
+        .portfolio {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .portfolio-title {
+            font-size: 2em;
             margin-bottom: 20px;
         }
         li {
@@ -61,8 +69,8 @@
         }
         .project-image {
             flex-shrink: 0;
-            width: 150px;
-            height: 150px;
+            width: 180px;
+            height: 180px;
             margin-right: 20px;
             border-radius: 8px;
             overflow: hidden;
@@ -105,6 +113,21 @@
                 <div><a href="https://www.youtube.com/@hgamaf" target="_blank">YouTube</a></div>
                 <div><a href="https://www.instagram.com/henriqgamaf/" target="_blank">Instagram</a></div>
             </div>
+            <!-- Seção de Portfólio de Projetos -->
+            <div class="portfolio">
+                <h2 class="portfolio-title">Portfolio</h2>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="assets/projects/ocr.png" alt="OCR Application Screenshot">
+                    </div>
+                    <div class="project-description">
+                        <h4 class="project-title">Text Extraction from Documents for Granting Benefits</h4>
+                        <p>Developed an Optical Character Recognition (OCR) application using PyTessarct. The purpose of the application was to extract information from sensitive customer documents in order to grant or not benefits from discounts or exemption from paying electricity tariffs.</p>
+                        <a href="link-para-o-repositorio-do-github" class="project-link">View this project on GitHub</a>
+                    </div>
+                </div>
+                <!-- Repita a estrutura do projeto para outros projetos -->
+            </div>
         </div>
         <div class="right-column">
             <h2>Data Scientist - Senior @EY</h2>
@@ -126,21 +149,6 @@
                     <li>Bachelor in Sanitary Engineering - Universidade Estadual da Paraíba (UEPB).</li>
                     <li>Master of Science in Science and Environmental Engineering - Universidade Federal de Alfenas (UNIFAL).</li>
                 </ul>
-            </div>
-            <!-- Seção de Portfólio de Projetos -->
-            <div class="portfolio">
-                <h3>Portfolio</h3>
-                <div class="project">
-                    <div class="project-image">
-                        <img src="assets/projects/ocr.png" alt="OCR Application Screenshot">
-                    </div>
-                    <div class="project-description">
-                        <h4 class="project-title">Text Extraction from Documents for Granting Benefits</h4>
-                        <p>Developed an Optical Character Recognition (OCR) application using PyTessarct. The purpose of the application was to extract information from sensitive customer documents in order to grant or not benefits from discounts or exemption from paying electricity tariffs.</p>
-                        <a href="link-para-o-repositorio-do-github" class="project-link">View this project on GitHub</a>
-                    </div>
-                </div>
-                <!-- Repita a estrutura do projeto para outros projetos -->
             </div>
         </div>
     </div>
