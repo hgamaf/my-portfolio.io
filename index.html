@@ -74,7 +74,13 @@
         }
         .project-description {
             flex: 1;
+            text-align: justify;
         }
+        .project-description p::after {
+            content: "";
+            display: inline-block;
+            width: 100%;
+        }    
         .project-title {
             font-size: 1.5em;
             margin-bottom: 10px;
@@ -130,11 +136,11 @@
                 <h3>Portfolio</h3>
                 <div class="project">
                     <div class="project-image">
-                        <img src="assets/projects/ocr.png" alt="Descrição da Imagem">
+                        <img src="assets/projects/ocr.png" alt="OCR Application Screenshot">
                     </div>
                     <div class="project-description">
-                        <h4 class="project-title">Extração de Texto de Documentos para concessão de Benefícios</h4>
-                        <p>Utilizou-se técnicas de OCR (Optical Character Recognition) para extrair informações de documentos e armazenalas e um dataframe.</p>
+                        <h4 class="project-title">Text Extraction from Documents for Granting Benefits</h4>
+                        <p>Developed an Optical Character Recognition (OCR) application using PyTessarct. The purpose of the application was to extract information from sensitive customer documents in order to grant or not benefits from discounts or exemption from paying electricity tariffs..</p>
                         <a href="link-para-o-repositorio-do-github" class="project-link">View this project on GitHub</a>
                     </div>
                 </div>
