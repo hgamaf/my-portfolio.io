@@ -1,4 +1,4 @@
 title: "Henrique Gama"
-logo: "assets/pics/my_pic.png"
+logo: /assets/pics/my_pic.png
 show_downloads: false
 theme: jekyll-theme-minimal
