@@ -1,4 +1,6 @@
 # Data Scientist - Senior @EY
+## Check my portfolio!
+- https://hgamaf.github.io/my-portfolio.io/
 
 ## Skills
 - Machine Learning for Prediction and Classification
